@@ -14,12 +14,10 @@ Rails.application.routes.draw do
 
   # students
   get "/students", to: "students#index"
-  get "/students", to: "students#show"
   post "/students", to: "students#create"
 
   # teachers
   get "/teachers", to: "teachers#index"
-  get "/teachers", to: "teachers#show"
   post "/teachers", to: "teachers#create"
 
   # classes

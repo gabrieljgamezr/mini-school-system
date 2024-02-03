@@ -8,9 +8,6 @@ class StudentsController < ApplicationController
     }, status: 200
   end
 
-  def show
-  end
-
   def create
     student = Student.new(
       name: student_params[:name],
